@@ -225,6 +225,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    padding-left: 10px;
   }
   
   .main__content h2 {
@@ -237,12 +238,14 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    padding-left: 10px;
   }
   
   .main__content p {
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
+    color: white;
   }
   
   .main__btn {
@@ -288,6 +291,7 @@
   
   .main__img--container {
     text-align: center;
+    position: relative;
   }
   
   #main__img {
@@ -386,15 +390,15 @@
   
   .services__card {
     margin: 1rem;
-    height: 525px;
-    width: 400px;
+    height: 40vw;
+    width: 25vw;
     border-radius: 4px;
     background-image: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.6) 100%
       ),
-      url('veebileht/pildid/shooters.jpg');
+      url('pildid/GOW.jpg');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -410,7 +414,7 @@
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.9) 100%
       ),
-      url('/veebileht-Marco/images/veebileht/pildid/GOW.jpg');
+      url('pildid/shooters.jpg');
   }
 
   .services__card:nth-child(3) {
@@ -419,7 +423,7 @@
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.9) 100%
       ),
-      url('veebileht/pildid/Mamba.png');
+      url('pildid/Mamba.png');
   }
 
   .services__card h3 {
